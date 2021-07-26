@@ -1,0 +1,405 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!-- For development, pass document through inliner -->
+
+    <style type="text/css">
+      @import url("https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap");
+      * {
+        padding: 0;
+        margin: 0;
+        font-family: "Raleway", sans-serif;
+      }
+
+      body {
+        font-family: "Raleway", sans-serif;
+        padding: 0;
+        background-color: #f9fbfc;
+        font-weight: 400;
+        -moz-osx-font-smoothing: grayscale;
+        font-size: 14px;
+        color: #1e1428;
+      }
+
+      img {
+        max-width: 100%;
+        object-fit: cover;
+      }
+      .full_width {
+        width: 100%;
+      }
+
+      .table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+      }
+
+      h1 {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+      }
+      h4 {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+      }
+      p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+      }
+
+      .small {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+      }
+
+      .wrapper {
+        background-color: #fff;
+        border-radius: 8px;
+        max-width: 536px;
+        margin: 38px auto 0;
+      }
+
+      .content {
+        padding: 0 32px;
+      }
+      .mt33 {
+        margin-top: 33px;
+      }
+      .mt24 {
+        margin-top: 24px;
+      }
+      .mt40 {
+        margin-top: 40px;
+      }
+      .mt13 {
+        margin-top: 13px;
+      }
+      .mt32 {
+        margin-top: 32px;
+      }
+      .mt42 {
+        margin-top: 42px;
+      }
+      .mb36 {
+        margin-bottom: 36px;
+      }
+      .mt40-sm {
+        margin-top: 40px;
+      }
+      .mt16 {
+        margin-top: 16px;
+      }
+
+      .button {
+        background-color: #3cd28c;
+        color: #fff;
+        width: 100%;
+        height: 52px;
+        font-size: 16px;
+        font-weight: 700;
+        display: block;
+        text-decoration: none;
+        line-height: 52px;
+        text-align: center;
+        border-radius: 30px;
+      }
+      .side_image {
+        min-width: 200px;
+        border-radius: 8px;
+        object-fit: cover;
+        width: 200px;
+      }
+      .spacing {
+        width: 73px;
+      }
+      tr:last-child .content {
+        padding-bottom: 32px;
+      }
+      .icon {
+        text-decoration: none;
+        display: inline-block;
+        margin: 0 2px;
+      }
+      .rounded {
+        border-radius: 8px;
+      }
+
+      .footer {
+        color: #061938;
+        font-size: 12px;
+        max-width: 271px;
+        line-height: 21px;
+        margin-top: 20px;
+      }
+      .contact {
+        color: #061938;
+        text-decoration: none;
+        font-weight: 700;
+      }
+      .unsubscribe {
+        color: #061938;
+      }
+      .copyright {
+        max-width: 319px;
+        margin: 24px auto 42px;
+        color: #5e6c84;
+        font-size: 12px;
+        line-height: 20px;
+      }
+      .text-center {
+        text-align: center;
+      }
+      .footer_logo {
+        margin-top: 24px;
+      }
+      ul {
+        padding-left: 40px;
+      }
+      ul li {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        margin-bottom: 25px;
+      }
+
+      @media (max-width: 767px) {
+        body {
+          background-color: #fff;
+        }
+        .wrapper {
+          margin-top: 0;
+        }
+        .mb36 {
+          margin-bottom: 20px;
+        }
+        .mt42 {
+          margin-top: 40px;
+        }
+        .px24-sm {
+          padding-left: 24px;
+          padding-right: 24px;
+        }
+        .text-center {
+          text-align: left;
+        }
+        .header_image {
+          background-color: #1e1428;
+        }
+        .header_image > img {
+          height: 78px;
+        }
+        .main_image {
+          padding: 0 24px;
+        }
+        .main_image > img {
+          border-radius: 8px;
+        }
+        p {
+          font-size: 14px;
+          line-height: 21px;
+        }
+        .mt24 {
+          margin-top: 16px;
+        }
+        .mt33 {
+          margin-top: 23px;
+        }
+        .mt40 {
+          margin-top: 30px;
+        }
+        .flex-sm {
+          display: flex;
+          flex-direction: column;
+        }
+        .mt40-sm {
+          margin-top: 13px;
+        }
+        .spacing {
+          height: 16px;
+        }
+        .side_image {
+          width: 100%;
+        }
+        .flex-reverse-sm {
+          display: flex;
+          flex-direction: column-reverse;
+        }
+        .content {
+          padding: 0 24px;
+        }
+        .footer-section {
+          background-color: #f9fbfc;
+        }
+        .mt16 {
+          margin-top: 8px;
+        }
+        ul {
+          padding-left: 30px;
+        }
+      ul li {
+        font-size: 14px;
+        line-height: 21px;
+      }
+      }
+    </style>
+  </head>
+  <body>
+    <table class="table container">
+      <tr>
+        <td>
+          <table class="table">
+            <tr>
+              <td align="center" class="header_image">
+                <img
+                  src="https://design.iapplabz.co.in/socpoc_email_templates/images/header.svg"
+                  alt="logo"
+                />
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <table class="table wrapper">
+            <tr>
+              <td class="content">
+                <table class="table">
+                  <tr>
+                    <td class="text-left">
+                     
+                      <p class="mt42">
+                        Hi [name],
+                        <br />
+                        <br />
+                        How was your week at work?
+                        <br />
+                        <br />
+                        I often hear from SOCPOC users about how much they love being able to keep it real here. Many times, the professional world requires us to conform our ideas, thoughts, and voice to the majority, but you don’t need to worry about that on SOCPOC.
+                        <br />
+                        <br />
+                        Have you set up your profile yet? I get it, I get it. You’re busy and profiles take time. But don’t worry, this one takes just a few minutes and four simple steps. And then you’re ready to take advantage of a number of benefits you can’t get anywhere else.
+                        <br />
+                        <br />
+                        When you engage on SOCPOC, you can:
+                        <br />
+                        <br />
+                        </p>
+                        <ul>
+                          <li>
+                            <b>Build a network of professionals of color: </b>Ever look around the room to realize you’re the only person of color there? Yeah, we’ve been there too. With SOCPOC, you can connect with others and not feel alone anymore.
+                          </li>
+                          <li>
+                            <b>Get access to in-demand job openings:</b>There are plenty of top-tier organizations who are committed to increasing diversity and are actively searching for professionals of color. Get targeted job postings so you can smash that glass ceiling. 
+                          </li>
+                          <li>
+                            <b>Learn from new ideas and perspectives:</b>
+                            SOCPOC brings together all people of color. This way, we can learn from one another, celebrate our similarities and differences, and lift each other up. We’re more powerful together.</li>
+                        </ul>
+                        <p>
+                        Remember, all this is at your fingertips at SOCPOC. All you have to do is fill out your profile and start engaging. Four simple steps are all it takes: add your photo, write your short bio, share your work experience, and get engaged. Done. Ready?
+                        
+                      </p>
+                      <a href="javascript:;" class="button mt33"
+                        >Fill out your Socpoc Profile</a
+                      >
+                      <p class="mt24">
+                        Till next time,
+                        <br>
+                        <br>
+                        Laramie
+                        
+                        <br>
+                        <br>
+                        P.S. Want to lift other professionals of color up and give them access to a networking community built for them? Forward them this email and tell them to sign up to SOCPOC. We want to hear from them!
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <table class="table mt16 footer-section">
+            <tr>
+              <td align="center">
+                <img
+                  class="footer_logo"
+                  src="https://design.iapplabz.co.in/socpoc_email_templates/images/footer_logo.svg"
+                  alt="logo"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td align="center">
+                <table class="table mt32">
+                  <tr>
+                    <td align="center">
+                      <a class="icon" href="javascript:;">
+                        <img
+                          src="https://design.iapplabz.co.in/socpoc_email_templates/images/fb.svg"
+                          alt="icon"
+                        />
+                      </a>
+                      <a class="icon" href="javascript:;">
+                        <img
+                          src="https://design.iapplabz.co.in/socpoc_email_templates/images/tw.svg"
+                          alt="icon"
+                        />
+                      </a>
+                      <a class="icon" href="javascript:;">
+                        <img
+                          src="https://design.iapplabz.co.in/socpoc_email_templates/images/insta.svg"
+                          alt="icon"
+                        />
+                      </a>
+                      <a class="icon" href="javascript:;">
+                        <img
+                          src="https://design.iapplabz.co.in/socpoc_email_templates/images/link.svg"
+                          alt="icon"
+                        />
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td align="center">
+                <div class="footer">
+                  <a class="unsubscribe" href="javascript:;">Unsubscribe here</a
+                  >. To contact the SOCPOC team, send an email to
+                  <a class="contact" href="mailto:contact@socpoc.com"
+                    >contact@socpoc.com</a
+                  >
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td align="center">
+                <div class="copyright">
+                  2020 © SOCPOC. All Rights Reserved. <br />
+                  1874 Michigan Avenue. Pittsburgh. PA 1502. United States.
+                </div>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

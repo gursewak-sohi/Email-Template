@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="41px" height="41px" viewBox="0 0 41 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>link</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Newsletter-Template-1---Desktop" transform="translate(-352.000000, -2462.000000)">
+            <g id="Group-8" transform="translate(209.000000, 2463.000000)">
+                <g id="link" transform="translate(144.000000, 0.000000)">
+                    <rect id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="39" height="39" rx="19.5"></rect>
+                    <g id="Group" transform="translate(9.500000, 8.960000)" fill-rule="nonzero">
+                        <path d="M0.4,2.35 C0.4,1.59 1.035,0.97 1.819,0.97 L18.181,0.97 C18.965,0.97 19.6,1.59 19.6,2.35 L19.6,18.8 C19.6,19.56 18.965,20.17 18.181,20.17 L1.819,20.17 C1.036,20.17 0.4,19.56 0.4,18.8 L0.4,2.35 L0.4,2.35 Z" id="Path" fill="#3CD28C"></path>
+                        <path d="M6.235,17.04 L6.235,8.4 L3.362,8.4 L3.362,17.04 L6.235,17.04 L6.235,17.04 Z M4.799,7.22 C5.801,7.22 6.424,6.55 6.424,5.72 C6.405,4.88 5.801,4.23 4.818,4.23 C3.835,4.23 3.192,4.88 3.192,5.72 C3.192,6.55 3.816,7.22 4.78,7.22 L4.799,7.22 L4.799,7.22 Z M7.825,17.04 L10.698,17.04 L10.698,12.22 C10.698,11.96 10.717,11.7 10.793,11.51 C11,11 11.473,10.46 12.267,10.46 C13.306,10.46 13.722,11.26 13.722,12.42 L13.722,17.04 L16.595,17.04 L16.595,12.09 C16.595,9.43 15.178,8.2 13.288,8.2 C11.738,8.2 11.057,9.06 10.679,9.65 L10.698,9.65 L10.698,8.4 L7.825,8.4 C7.863,9.21 7.825,17.04 7.825,17.04 L7.825,17.04 Z" id="Shape" fill="#FFFFFF"></path>
+                    </g>
+                    <rect id="Rectangle" stroke="#DFE1E6" x="0" y="0" width="39" height="39" rx="19.5"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

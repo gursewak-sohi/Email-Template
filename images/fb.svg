@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="41px" height="41px" viewBox="0 0 41 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>fb</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Newsletter-Template-1---Desktop" transform="translate(-208.000000, -2462.000000)">
+            <g id="fb" transform="translate(209.000000, 2463.000000)">
+                <rect id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="39" height="39" rx="19.5"></rect>
+                <g id="Group" transform="translate(9.500000, 8.960000)" fill-rule="nonzero">
+                    <path d="M18.54,20.14 C19.125,20.14 19.6,19.66 19.6,19.08 L19.6,1.99 C19.6,1.41 19.125,0.94 18.54,0.94 L1.46,0.94 C0.874,0.94 0.4,1.41 0.4,1.99 L0.4,19.08 C0.4,19.66 0.874,20.14 1.46,20.14 L18.54,20.14 L18.54,20.14 Z" id="Path" fill="#3CD28C"></path>
+                    <path d="M13.647,20.14 L13.647,12.7 L16.143,12.7 L16.517,9.8 L13.647,9.8 L13.647,7.95 C13.647,7.11 13.88,6.54 15.083,6.54 L16.618,6.54 L16.618,3.95 C16.352,3.91 15.441,3.84 14.382,3.84 C12.169,3.84 10.655,5.19 10.655,7.67 L10.655,9.8 L8.153,9.8 L8.153,12.7 L10.655,12.7 L10.655,20.14 L13.647,20.14 L13.647,20.14 Z" id="Path" fill="#FFFFFF"></path>
+                </g>
+                <rect id="Rectangle" stroke="#DFE1E6" x="0" y="0" width="39" height="39" rx="19.5"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
